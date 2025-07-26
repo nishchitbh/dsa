@@ -8,10 +8,8 @@ def generate_array(size):
 
 
 def sort(array):
-    print(array)
     for i in range(1, len(array)):
         selected_card = array[i]
-        print(selected_card)
         j = i - 1
         while j > -1 and array[j] > selected_card:
             array[j + 1] = array[j]
