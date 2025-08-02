@@ -1,11 +1,4 @@
-import random
-
-
-def generate_array(size):
-    generated = list(range(size))
-    random.shuffle(generated)
-    return generated
-
+from sort_algo.array import generate_array
 
 def sort(array):
     for i in range(1, len(array)):
